@@ -19,8 +19,11 @@ Christian Remwood was in charge of all hardware/firmware developments for this p
 
 - ESP32 Feather (MAIN CPU/WIFI Radio)
 <img src ="https://cdn-shop.adafruit.com/1200x900/3405-06.jpg" width="100" height="100" />
+
 - Si7021 (Temperature & Humidity)
+
 - SGP30 (Gas Sensor)
+
 - Custom PCB (Connects components to CPU)
 <img src ="https://media.discordapp.net/attachments/747919849220735017/784867614131617792/20201123_161811.jpg" width="100" height="100" />
 
