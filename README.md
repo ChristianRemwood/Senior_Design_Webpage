@@ -44,7 +44,7 @@ Christian Remwood was in charge of all hardware/firmware developments for this p
 
 ### Online Profile
 
-### Setting up Hardware
+### Setting up Hardware (Might be text only unfortunately)
 
 
 
