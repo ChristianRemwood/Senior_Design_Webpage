@@ -6,7 +6,7 @@
 
 ### Kirill Malevich
 
-### Christian Remwood @ChristianRemwood
+### [Christian Remwood](https://github.com/ChristianRemwood)
 <img src ="https://instagram.fboi1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120220428_171931904531356_5192354416253353930_n.jpg?_nc_ht=instagram.fboi1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=XwSUQFCIlW8AX_4PN0T&tp=1&oh=8dd6a293b01e79100104b9c6a50c5258&oe=5FF71F0D" width="200" height="200" />
 
 Christian Remwood was in charge of all hardware/firmware developments for this project. He has been working in the Firmware/Embedded sofrware field for about 7 years now and decided to put those skills to use in this semester. 
