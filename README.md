@@ -11,7 +11,7 @@
 
 Christian Remwood was in charge of all project hardware/firmware developments for this project. 
 
-## The Prohject
+## The Project
 
 ### Overview
 
