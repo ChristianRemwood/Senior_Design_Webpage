@@ -21,12 +21,18 @@ Christian Remwood was in charge of all hardware/firmware developments for this p
 <img src ="https://cdn-shop.adafruit.com/1200x900/3405-06.jpg" width="100" height="100" />
 
 - Si7021 (Temperature & Humidity)
+<img src ="https://cdn-shop.adafruit.com/1200x900/3251-04.jpg" width="100" height="100" />
 
 - SGP30 (Gas Sensor)
+<img src ="https://cdn-shop.adafruit.com/1200x900/3709-03.jpg" width="100" height="100" />
+
+- Breadboard prototype (Connects components to CPU)
+<img src ="https://media.discordapp.net/attachments/747919849220735017/784868204299550760/Screenshot_20201205-124536.png" width="100" height="100" />
+<img src ="https://media.discordapp.net/attachments/747919849220735017/784867736651169833/PXL_20201123_232635134.jpg" width="100" height="100" />
 
 - Custom PCB (Connects components to CPU)
 <img src ="https://media.discordapp.net/attachments/747919849220735017/784867614131617792/20201123_161811.jpg" width="100" height="100" />
-
+<img src ="https://media.discordapp.net/attachments/747919849220735017/784867809095188510/PXL_20201123_233023795.jpg" width="100" height="100" />
 
 ### Application Server
 
