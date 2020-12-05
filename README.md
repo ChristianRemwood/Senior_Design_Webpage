@@ -40,6 +40,14 @@ Christian Remwood was in charge of all hardware/firmware developments for this p
 
 ### Markdown
 
+## Product Usage Guide
+
+### Online Profile
+
+### Setting up Hardware
+
+
+
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
