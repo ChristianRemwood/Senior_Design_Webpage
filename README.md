@@ -4,7 +4,8 @@
 
 ### Jake Halopoff
 
-### Kirill Malevich
+### [Kirill Malevich](https://github.com/kirmal-mal)
+Kirill Malevich was in charge of the server part of this project.
 
 ### [Christian Remwood](https://github.com/ChristianRemwood)
 <img src ="https://instagram.fboi1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/120220428_171931904531356_5192354416253353930_n.jpg?_nc_ht=instagram.fboi1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=XwSUQFCIlW8AX_4PN0T&tp=1&oh=8dd6a293b01e79100104b9c6a50c5258&oe=5FF71F0D" width="200" height="200" />
@@ -62,7 +63,35 @@ When proofing out the hardware I started with connecting all components with a b
 In order to make for a more final product and remove the issues from the breadboard I created a custom PCB to connect all components together in a more secure manner. The board was designed using EAGLE CAD, and ordered from a company called OSH Park. It was not the most ideal layout, but I wanted to ensure the radio antenna had plenty of clearence to provide for the most stable wifi connection. Powering the board once assembled was more of an afterthough, but removing some spacers from the sensors gave enough room for a usb cable to connect to the ESP32 board. 
 
 ### Application Server
-
+Allplication server is a Node.js server that accepts information from the fevices and provides simple user interface to add new device or view data recieved from the device.
+The server has following functions:
+- Helper methods for the user interface
+  - Add the new user to the database
+  - Authenticate user
+  - Pair the new device
+  - Return the list of devices for the user
+  - Return the device readings
+- Pair the new device
+  - Create the pair token for the device
+  - The API JSON for device pairing:<br/>
+  `{
+    "type" : "pair", 
+    "token": "%pairing_token_from_the_website", 
+    "model": "%model_of_the_device%", 
+    "serial": "%serial_number_for_the_device%"
+  }`
+  
+- Accept data from the device
+  - The API JSON to post the logs is following:<br/>
+  `{
+    "type": "postlogs",
+    "token": "%token_for_the_paired_device",
+    "tvoc": "%tvoc_reading%",
+    "eco2": "%eco2_reading%",
+    "raw_h2": "%raw_h2_reading%",
+    "raw_ethanol": "%raw_ethanol_reading%"
+  }`
+  - Add recieved logs to the database
 ### User Interface
 
 ## Product Usage Guide
