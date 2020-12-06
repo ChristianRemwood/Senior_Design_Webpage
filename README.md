@@ -2,7 +2,7 @@
 
 ## Project Developers
 
-### Jake Halopoff
+### [Jake Halopoff](https://github.com/kirmal-mal/sd-server/tree/main/views/pages)
 
 ### [Kirill Malevich](https://github.com/kirmal-mal)
 Kirill Malevich was in charge of the server part of this project.
@@ -63,7 +63,7 @@ When proofing out the hardware I started with connecting all components with a b
 In order to make for a more final product and remove the issues from the breadboard I created a custom PCB to connect all components together in a more secure manner. The board was designed using EAGLE CAD, and ordered from a company called OSH Park. It was not the most ideal layout, but I wanted to ensure the radio antenna had plenty of clearence to provide for the most stable wifi connection. Powering the board once assembled was more of an afterthough, but removing some spacers from the sensors gave enough room for a usb cable to connect to the ESP32 board. 
 
 ### Application Server
-Allplication server is a Node.js server that accepts information from the fevices and provides simple user interface to add new device or view data recieved from the device.
+Application server is a Node.js server that accepts information from the devices and provides simple user interface to add a new device or view data recieved from the device.
 The server has following functions:
 - Helper methods for the user interface
   - Add the new user to the database
@@ -100,6 +100,22 @@ The server has following functions:
   
   - Add recieved logs to the database
 ### User Interface
+<br />
+<img src ="https://cdn.discordapp.com/attachments/784915386151731251/784997681255940116/unknown.png" />
+<br />
+<img src ="https://media.discordapp.net/attachments/784915386151731251/784998011142012988/unknown.png?width=266&height=338" />
+The login/signup page for the project. Upon signing in, you are redirected to:
+<br />
+<img src ="https://media.discordapp.net/attachments/784915386151731251/785000719296102400/unknown.png" />
+
+This displays the location of each device, the token to add a new device, and some information about the currently connected devices.
+
+<img src = "https://cdn.discordapp.com/attachments/784915386151731251/785000796370108466/unknown.png" />
+
+Pressing Add Device displays a new device token for pairing. Log out returns to the previous screen. 
+
+Devices are shown with their ID, model, name, and date/time of the last recieved reading.  
+<img src = "https://cdn.discordapp.com/attachments/784915386151731251/785000888234278912/unknown.png" />
 
 ## Product Usage Guide
 
