@@ -4,6 +4,8 @@
 
 ### Jake Halopoff
 
+Jake Halopoff developed the website the device uses, and helped with some of the JavaScript. He is a Senior Computer Science student at BSU with internship experience at RuleTek LLC. 
+
 ### Kirill Malevich
 
 ### [Christian Remwood](https://github.com/ChristianRemwood)
@@ -14,7 +16,7 @@ Christian Remwood was in charge of all hardware/firmware developments for this p
 ## The Project
 
 ### Overview
-Our goal for this project was to create an Air Quality Monitor that could show you the quality of your homes air in real time over the internet. In order to do this, the project was broken up into three sections: Hardware, Application Server, and User Interface (Web Page). The general idea is that the hardware could be paired to some users account and ping the application server each time it measured the air quality. The server would then authenticate the request, make sure all credentials are valid, and then update any database entry where the sensor was tied to. The User could then view this data as past entries, or in real time by logging into their account and clicking on the sensor they wished to see. Over all it was a nice project giving us all experience creating distinc interfaces for having all parts work together. 
+Our goal for this project was to create an Air Quality Monitor that could show you the quality of your homes air in real time over the internet. In order to do this, the project was broken up into three sections: Hardware, Application Server, and User Interface (Web Page). The general idea is that the hardware could be paired to some users account and ping the application server each time it measured the air quality. The server would then authenticate the request, make sure all credentials are valid, and then update any database entry where the sensor was tied to. The User could then view this data as past entries, or in real time by logging into their account and clicking on the sensor they wished to see. Over all it was a nice project giving us all experience creating distinct interfaces for having all parts work together. 
 
 ### Hardware
 
@@ -65,9 +67,21 @@ In order to make for a more final product and remove the issues from the breadbo
 
 ### User Interface
 
+<br />
+<img src ="https://cdn.discordapp.com/attachments/784915386151731251/784997681255940116/unknown.png" />
+<br />
+<img src ="https://media.discordapp.net/attachments/784915386151731251/784998011142012988/unknown.png?width=266&height=338" />
+The login/signup page for the project. Upon signing in, you are redirected to:
+
+
+
+### Map
+
 ## Product Usage Guide
 
 ### Online Profile
+
+Each user can create their own unique User profile. We decided that this approach was the most realistic: devices should be paired with an owner, and the owner should be able to add and remove devices at will. 
 
 ### Setting up Hardware 
 
