@@ -52,6 +52,7 @@ This sensor was the most important part of the project as it provided all the ga
 When proofing out the hardware I started with connecting all components with a breadboard I had laying around. This was perfect for initial testing, but it did make for a source of error as wires could easily come loose. 
 
 <br />
+
 - Custom PCB (Connects components to CPU)
 
 <br />
