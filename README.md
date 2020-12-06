@@ -2,7 +2,7 @@
 
 ## Project Developers
 
-### Jake Halopoff
+### [Jake Halopoff](https://github.com/kirmal-mal/sd-server/tree/main/views/pages)
 
 Jake Halopoff developed the website the device uses, and helped with some of the JavaScript. He is a Senior Computer Science student at BSU with internship experience at RuleTek LLC. 
 
@@ -65,7 +65,7 @@ When proofing out the hardware I started with connecting all components with a b
 In order to make for a more final product and remove the issues from the breadboard I created a custom PCB to connect all components together in a more secure manner. The board was designed using EAGLE CAD, and ordered from a company called OSH Park. It was not the most ideal layout, but I wanted to ensure the radio antenna had plenty of clearence to provide for the most stable wifi connection. Powering the board once assembled was more of an afterthough, but removing some spacers from the sensors gave enough room for a usb cable to connect to the ESP32 board. 
 
 ### Application Server
-Allplication server is a Node.js server that accepts information from the fevices and provides simple user interface to add new device or view data recieved from the device.
+Application server is a Node.js server that accepts information from the devices and provides simple user interface to add a new device or view data recieved from the device.
 The server has following functions:
 - Helper methods for the user interface
   - Add the new user to the database
@@ -101,8 +101,17 @@ The server has following functions:
 <br />
 <img src ="https://media.discordapp.net/attachments/784915386151731251/784998011142012988/unknown.png?width=266&height=338" />
 The login/signup page for the project. Upon signing in, you are redirected to:
+<br />
+<img src ="https://media.discordapp.net/attachments/784915386151731251/785000719296102400/unknown.png" />
 
+This displays the location of each device, the token to add a new device, and some information about the currently connected devices.
 
+<img src = "https://cdn.discordapp.com/attachments/784915386151731251/785000796370108466/unknown.png" />
+
+Pressing Add Device displays a new device token for pairing. Log out returns to the previous screen. 
+
+Devices are shown with their ID, model, name, and date/time of the last recieved reading.  
+<img src = "https://cdn.discordapp.com/attachments/784915386151731251/785000888234278912/unknown.png" />
 
 ### Map
 
@@ -110,7 +119,7 @@ The login/signup page for the project. Upon signing in, you are redirected to:
 
 ### Online Profile
 
-Each user can create their own unique User profile. We decided that this approach was the most realistic: devices should be paired with an owner, and the owner should be able to add and remove devices at will. 
+Each user can create their own unique User profile. We decided that this approach was the most realistic: devices should be paired with an owner, and the owner should be able to add and remove devices at will. Accounts are tied to email and require a unique email to be created. 
 
 ### Setting up Hardware 
 
@@ -118,39 +127,3 @@ Each user can create their own unique User profile. We decided that this approac
 2. Next they will connect to a netowrk AQSETUPXXXX where the XXXX would be part of the devices MAC address
 3. The user will see a captive portal page load which they will need to enter their pairing code, wifi network, and wifi password. This info will be stored and the device will now reboot.
 4. The setup should now be complete and the user will be able to see their device on the main application web page as long as they have access to the internet. 
-
-
-
-# DELETE
-# EVERYTHING
-# BELOW
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ChristianRemwood/Senior_Design_Webpage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
