@@ -1,5 +1,20 @@
 ## Welcome to the Air Quality Monitor Project Demo
 
+# Table of Contents
+- [Welcome to the Air Quality Monitor Project Demo](#welcome-to-the-air-quality-monitor-project-demo)
+- [Project Developers](#project-developers)
+- [The Project](#the-project)
+  * [Overview](#overview)
+  * [Hardware](#hardware)
+  * [Application Server](#application-server)
+  * [User Interface](#user-interface)
+- [Product Usage Guide](#product-usage-guide)
+  * [1. Online Profile](#1-online-profile)
+  * [2. Setting up Hardware](#2-setting-up-hardware)
+  * [3. Pairing the device](#3-pairing-the-device)
+  * [4. Sending the data](#4-sending-the-data)
+  * [5. Viewing the data](#5-viewing-the-data)
+
 ## Project Developers
 
 ### [Jake Halopoff](https://github.com/kirmal-mal/sd-server/tree/main/views/pages)
