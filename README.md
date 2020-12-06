@@ -65,8 +65,6 @@ In order to make for a more final product and remove the issues from the breadbo
 
 ### User Interface
 
-### Markdown
-
 ## Product Usage Guide
 
 ### Online Profile
@@ -79,6 +77,10 @@ In order to make for a more final product and remove the issues from the breadbo
 4. The setup should now be complete and the user will be able to see their device on the main application web page as long as they have access to the internet. 
 
 
+
+# DELETE
+# EVERYTHING
+# BELOW
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
