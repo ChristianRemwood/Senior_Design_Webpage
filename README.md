@@ -3,6 +3,7 @@
 ## Project Developers
 
 ### [Jake Halopoff](https://github.com/kirmal-mal/sd-server/tree/main/views/pages)
+Jake Halopoff was in charge of the visual and front-end part of this project
 
 ### [Kirill Malevich](https://github.com/kirmal-mal)
 Kirill Malevich was in charge of the server part of this project.
