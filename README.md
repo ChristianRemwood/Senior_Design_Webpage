@@ -25,21 +25,18 @@ The ESP32 board was used as the main CPU running all the code responsible for th
 
 
 <br />
-
 - Si7021 (Temperature & Humidity)
 <br />
 <img src ="https://cdn-shop.adafruit.com/1200x900/3251-04.jpg" width="100" height="100" />
 This sensor was used to get more accurate measurements from the Gas Sensor. It was able to provide accurate Temperature and Humidity data. 
 
 <br />
-
 - SGP30 (Gas Sensor)
 <br />
 <img src ="https://cdn-shop.adafruit.com/1200x900/3709-03.jpg" width="100" height="100" />
 This sensor was the most important part of the project as it provided all the gas values we needed to use in order to determine local air quality. It was capable of providing raw ethonol, Volatile Organic Compund counts, CO2 PPM, and more. 
 
 <br />
-
 - Breadboard prototype (Connects components to CPU)
 <br />
 <img src ="https://media.discordapp.net/attachments/747919849220735017/784868204299550760/Screenshot_20201205-124536.png" width="100" height="100" />
@@ -48,7 +45,6 @@ This sensor was the most important part of the project as it provided all the ga
 When proofing out the hardware I started with connecting all components with a breadboard I had laying around. This was perfect for initial testing, but it did make for a source of error as wires could easily come loose. 
 
 <br />
-
 - Custom PCB (Connects components to CPU)
 <br />
 <img src ="https://media.discordapp.net/attachments/747919849220735017/784867614131617792/20201123_161811.jpg" width="100" height="100" />
