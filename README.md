@@ -24,15 +24,21 @@ Our goal for this project was to create an Air Quality Monitor that could show y
 The ESP32 board was used as the main CPU running all the code responsible for the sensor code. Communications to the sensors was done through i2c, which was nice as it simplified wireing greatly. This board also handled both connecting to a users wifi, as well as hosting a wifi ap which could be used for initial setup. When a user connected to the sensors wifi access point, a captive portal would automatically be loaded with a form to pair the sensor with an account and connect it to a new wifi network. Lastly this sensor would automatically handle all communications with the application server from initial pairing, to updating the users data, and finally un-pairing if the user requested this to be done. 
 
 
+<br />
+
 - Si7021 (Temperature & Humidity)
 <br />
 <img src ="https://cdn-shop.adafruit.com/1200x900/3251-04.jpg" width="100" height="100" />
 This sensor was used to get more accurate measurements from the Gas Sensor. It was able to provide accurate Temperature and Humidity data. 
 
+<br />
+
 - SGP30 (Gas Sensor)
 <br />
 <img src ="https://cdn-shop.adafruit.com/1200x900/3709-03.jpg" width="100" height="100" />
 This sensor was the most important part of the project as it provided all the gas values we needed to use in order to determine local air quality. It was capable of providing raw ethonol, Volatile Organic Compund counts, CO2 PPM, and more. 
+
+<br />
 
 - Breadboard prototype (Connects components to CPU)
 <br />
@@ -40,6 +46,8 @@ This sensor was the most important part of the project as it provided all the ga
 <br />
 <img src ="https://media.discordapp.net/attachments/747919849220735017/784867736651169833/PXL_20201123_232635134.jpg" width="100" height="100" />
 When proofing out the hardware I started with connecting all components with a breadboard I had laying around. This was perfect for initial testing, but it did make for a source of error as wires could easily come loose. 
+
+<br />
 
 - Custom PCB (Connects components to CPU)
 <br />
