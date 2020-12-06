@@ -71,7 +71,12 @@ In order to make for a more final product and remove the issues from the breadbo
 
 ### Online Profile
 
-### Setting up Hardware (Might be text only unfortunately)
+### Setting up Hardware 
+
+1. First the user must power up the ESP32 over usb
+2. Next they will connect to a netowrk AQSETUPXXXX where the XXXX would be part of the devices MAC address
+3. The user will see a captive portal page load which they will need to enter their pairing code, wifi network, and wifi password. This info will be stored and the device will now reboot.
+4. The setup should now be complete and the user will be able to see their device on the main application web page as long as they have access to the internet. 
 
 
 
