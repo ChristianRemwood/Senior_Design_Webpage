@@ -14,12 +14,14 @@ Christian Remwood was in charge of all hardware/firmware developments for this p
 ## The Project
 
 ### Overview
+Our goal for this project was to create an Air Quality Monitor that could show you the quality of your homes air in real time over the internet. In order to do this, the project was broken up into three sections: Hardware, Application Server, and User Interface (Web Page). The general idea is that the hardware could be paired to some users account and ping the application server each time it measured the air quality. The server would then authenticate the request, make sure all credentials are valid, and then update any database entry where the sensor was tied to. The User could then view this data as past entries, or in real time by logging into their account and clicking on the sensor they wished to see. Over all it was a nice project giving us all experience creating distinc interfaces for having all parts work together. 
 
 ### Hardware
 
 - ESP32 Feather (MAIN CPU/WIFI Radio)
 <br />
 <img src ="https://cdn-shop.adafruit.com/1200x900/3405-06.jpg" width="100" height="100" />
+
 
 - Si7021 (Temperature & Humidity)
 <br />
